@@ -1,0 +1,243 @@
+body {
+  text-align: center;
+  transition: 1s;
+}
+#body {
+  background-image: url(https://i.ibb.co/R9BwKdX/uassss.jpg);
+  background-position: center;
+  background-size: 1500px;
+}
+.aboutBut {
+  width: 110px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 5px black solid;
+  margin-bottom: -100px;
+  margin-top: 30px;
+  margin-right: -70%;
+}
+.aboutBut:hover {
+  background-color: rgb(255, 196, 0);
+  border: 7px black solid;
+  cursor: pointer;
+}
+#home {
+  width: 110px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 5px black solid;
+  margin-top: 40px;
+  margin-left: -170px;
+}
+#home:hover {
+  background-color: rgb(255, 196, 0);
+  border: 7px black solid;
+  cursor: pointer;
+}
+#menu {
+  margin-top: -50px;
+}
+#mainPage {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  display: 100vh;
+}
+div .header {
+  border-bottom: 5px solid rgb(250, 6, 230);
+  background-color: black;
+}
+.header img {
+  width: 70px;
+  height: auto;
+}
+.header h1 {
+  font-size: 15px;
+  color: white;
+  margin-top: -10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div .content {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+#Image {
+  width: 200px;
+  height: auto;
+  border: 5px black solid;
+  border-radius: 10px;
+}
+#ImageSec {
+  margin-top: 40px;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: 5px black solid;
+  width: 200px;
+  height: auto;
+}
+.arrow {
+  margin-top: 90px;
+  width: 50px;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 50%;
+}
+.arrow:hover {
+  cursor: pointer;
+  transform: scale(1.4);
+  border: 7px solid rgb(0, 0, 0);
+  border-radius: 50%;
+}
+.rightBut {
+  margin-left: 7%;
+}
+.leftBut {
+  margin-right: 7%;
+}
+.inputBox {
+  margin-top: 50px;
+}
+.inputBox input {
+  width: 30%;
+  height: 30px;
+  text-align: center;
+  background-color: rgb(255, 194, 64);
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+select {
+  /*UNTUK OPSI JURUSAN*/
+  width: 30%;
+  height: 30px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border: 3px solid black;
+  background-color: rgb(157, 227, 255);
+  border-radius: 7px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.inputBox button {
+  margin-top: 10px;
+  text-align: center;
+  border: 3px solid black;
+  font-weight: bold;
+  background-color: rgb(0, 255, 136);
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+}
+.inputBox button:hover {
+  background-color: black;
+  height: auto;
+  border: 5px solid rgb(242, 38, 242);
+  color: white;
+  transform: scale(1.2);
+}
+#barTombol {
+  margin-right: 30px;
+}
+#atas {
+  /*UNTUK NAIKIN TOMBOL*/
+  margin-bottom: -340px;
+}
+#aktivitas {
+  display: inline-block;
+  margin-left: 71.5%;
+  margin-top: -120px;
+  background-color: white;
+  width: 375px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  border: 5px black solid;
+}
+#goto button {
+  font-weight: bold;
+  font-size: 100%;
+  border-radius: 10px;
+  border-width: 4px;
+  width: 150px;
+  margin-left: 28px;
+}
+#gotosatu {
+  display: flex;
+  margin-bottom: 10px;
+}
+#kampus {
+  margin-left: -13px;
+}
+#gotodua {
+  display: flex;
+}
+#bioskop {
+  margin-left: -13px;
+}
+#aktivitas button {
+  background-color: rgb(167, 94, 0);
+  color: rgb(255, 255, 255);
+  border-color: black;
+}
+#aktivitas button:hover {
+  background-color: rgb(80, 191, 255);
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+#activity button {
+  font-weight: bold;
+  font-size: 100%;
+  border-radius: 10px;
+  border-width: 4px;
+  width: 150px;
+  margin-left: 28px;
+}
+#satu {
+  display: flex;
+  margin-bottom: 10px;
+}
+#tidur {
+  margin-left: -13px;
+}
+#minum {
+  margin-left: -13px;
+}
+#perpus {
+  margin-left: 12px;
+}
+#kantin {
+  margin-left: -13px;
+}
+#dua {
+  display: flex;
+}
+#bar {
+  margin-left: 30px;
+  margin-top: 20px;
+  justify-content: center;
+}
+#matkul {
+  margin-left: 13px;
+}
+#btn-matkul1 {
+  margin-bottom: 10px;
+}
+#btn-matkul2 {
+  margin-left: 13px;
+}
+#btn-matkul3 {
+  margin-bottom: 10px;
+}
+#btn-matkul4 {
+  margin-bottom: 10px;
+}
+#btn-matkul5 {
+  margin-bottom: 10px;
+}
+#btn-matkul6 {
+  margin-bottom: 10px;
+}
